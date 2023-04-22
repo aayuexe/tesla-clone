@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <link rel="shortcut icon" href="images/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+    body{
+        background-image: url(images/model-y_R1@2.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-blend-mode: multiply;
+        /*background-color: rgba(0, 0, 0, 0.3);*/
+        background-repeat: no-repeat;
+    }
+    .info{
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    bottom: 7vh;
+    margin-left: 350px;
+    }
+    .model{
+    position: fixed;
+    top: 30vh;
+    right: 40vh;
+    }
+
+.model h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    }
+.logo{
+    filter: invert();
+}
+a{
+    color: #fff;
+}
+.btn{
+    border: 1px solid #fff;
+}    
+</style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/tesla_log.png" class="logo" alt="">
+            <ul class="mainul">
+                <li><a href="index.html">Model S</a></li>
+                <li><a href="model3.html">Model 3</a></li>
+                <li><a href="modelx.html">Model X</a></li>
+                <li><a href="modely.html">Model Y</a></li>
+                <li><a href="solar_roof.html">Solar Roof</a></li>
+                <li><a href="solar_panel.html">Solar Panel</a></li>
+            </ul>
+            <a href="" class="btn">Shop Now</a>
+        </nav>
+        <div class="model">
+            <h2>Model Y</h2>
+        </div>
+        <div class="info">
+            <div>
+                <h2>76 cu ft</h2>
+                <p>Cargo Space</p>
+            </div>
+            <div>
+                <h2>330 mi</h2>
+                <p>Range(EPA est.)</p>
+            </div>
+            <div>
+                <h2>AWD</h2>
+                <p>Dual Motor</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
